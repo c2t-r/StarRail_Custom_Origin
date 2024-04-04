@@ -1,0 +1,5 @@
+{
+    "origin": "http://127.0.0.1:23301",
+    "ClientConfig": "ClientConfig.bytes",
+    "server_env_config": "server_env_config.json"
+}
