@@ -48,6 +48,9 @@ if cc_name and os.path.isfile(cc_path):
     f_cc_out.write(readArray(f_cc_in))
     f_cc_out.write(f_cc_in.read(16))
 
+    f_cc_in.close()
+    f_cc_out.close()
+
     print(cc_out_path)
 
 sec_path = os.path.join("input", sec_name)
